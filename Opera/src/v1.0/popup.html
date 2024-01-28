@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Playback Speed Controller</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+
+<body class="light-mode">
+  <div id="popup-content">
+    <div id="speed-setting">
+      <label for="speedInput">Video Speed:</label>
+      <input type="number" id="speedInput" step="0.25" value="1" min="0">
+    </div>
+    <div id="step-setting">
+      <label for="stepInput">Step:</label>
+      <input type="number" id="stepInput" step="0.05" value="0.25" min="0">
+      <button id="changeSpeedBtn">Change Speed</button>
+    </div>
+  </div>
+  <script src="content.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>
