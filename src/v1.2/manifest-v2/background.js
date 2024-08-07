@@ -1,0 +1,1 @@
+// Placeholder background.js file
